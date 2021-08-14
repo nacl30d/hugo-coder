@@ -26,13 +26,13 @@ body {
 a {
   font-weight: 500;
   color: $link-color;
-  text-decoration: none;
+  // text-decoration: none;
   transition: all 0.25s ease-in;
 
-  &:focus,
-  &:hover {
-    text-decoration: underline;
-  }
+  // &:focus,
+  // &:hover {
+  //     text-decoration: underline;
+  // }
 }
 
 p {
