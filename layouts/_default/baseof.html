@@ -20,8 +20,8 @@
 
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-    {{ if .Permalink }}
-      <link rel="canonical" href="{{ .Permalink }}">
+    {{ if .RelPermalink }}
+      <link rel="canonical" href="{{ .RelPermalink }}">
     {{ end }}
 
     <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
